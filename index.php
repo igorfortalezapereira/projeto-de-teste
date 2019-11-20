@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="index.php" method="post">
-        <p>Digite seu nome: <input type="text" name="nome"></p>`
+        <p>Digite seu nome abaixo: <input type="text" name="nome"></p>
         <input type="submit" name="acao" value="enviar">
     </form>
     <?php
