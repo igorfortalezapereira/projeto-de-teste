@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <h1>Teste</h1>
+    <h1>Teste</h1>
+    <h1>Teste</h1>
     <form action="index.php" method="post">
         <p>Digite seu nome abaixo: <input type="text" name="nome"></p>
         <input type="submit" name="acao" value="enviar">
@@ -15,7 +18,7 @@
         $nome_pessoa = $_POST['nome'];
 
         $pessoa = new Nome;
-
+    
         $pessoa->pegar_nome($nome_pessoa);
         echo "<br/>";
         echo "Seu nome é ". $pessoa->devolver_nome();
