@@ -6,9 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Teste</h1>
-    <h1>Teste</h1>
-    <h1>Teste</h1>
+    <h1>Testando...</h1>
     <form action="index.php" method="post">
         <p>Digite seu nome abaixo: <input type="text" name="nome"></p>
         <input type="submit" name="acao" value="enviar">
